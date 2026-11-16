@@ -273,6 +273,9 @@ video { display: block; width: 100%; background: #000; margin: 0 auto 8px; }
   gap: 12px;
 }
 .gallery a { display: block; }
+.gallery-item { margin: 0; }
+.gallery-item figcaption { font-size: 13px; line-height: 1.4; text-align: left; margin-top: 6px; }
+.gallery-item figcaption a { display: inline; }
 .gallery img { width: 100%; height: 260px; object-fit: cover; }
 
 /* Two columns that stack on phones */
