@@ -264,6 +264,11 @@ video { display: block; width: 100%; background: #000; margin: 0 auto 8px; }
 
 /* Press cuttings */
 .press { display: block; max-width: 300px; margin: 16px auto; }
+.press.press-small { max-width: 150px; margin: 0 0 16px auto; }
+/* About: first paragraph with the Stereogum picture beside it */
+.cols-intro { align-items: center; margin-bottom: 32px; }
+.cols-intro p { margin: 0; }
+.cols-intro .press-small { margin: 0; }
 .press-title { font-family: "Bakbak One", sans-serif; font-size: 20px; text-align: center; }
 
 /* Gallery */
