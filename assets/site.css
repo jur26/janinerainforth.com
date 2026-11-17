@@ -238,6 +238,7 @@ body.has-hero .page-title { margin-bottom: 8px; }
 .quote.green { color: var(--green); }
 /* Quotes are slanted, except the green ones */
 .quote:not(.green) { font-style: italic; }
+.quote.quote-small { font-size: 18px; max-width: 720px; }
 
 /* Album block */
 .album { text-align: center; }
@@ -347,6 +348,7 @@ video { display: block; width: 100%; background: #000; margin: 0 auto 8px; }
   body { font-size: 16px; }
   .cols, .contact-grid { grid-template-columns: 1fr; }
   .quote { font-size: 18px; }
+  .quote.quote-small { font-size: 15.5px; }
   .page-title { font-size: 26px; }
   .founder-line { font-size: 21px; gap: 6px 10px; }
   .hero { min-height: 45vh; }
