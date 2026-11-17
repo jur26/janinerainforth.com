@@ -252,6 +252,8 @@ body.has-hero .page-title { margin-bottom: 8px; }
   font-weight: 700;
 }
 .button:hover { background: var(--pink); color: #000; text-decoration: none; }
+.button-icon { display: inline-flex; align-items: center; gap: 8px; }
+.button-icon svg { width: 16px; height: 16px; fill: currentColor; flex: none; }
 
 /* Embeds (music and video players) */
 .embed { margin: 0 auto 24px; }
@@ -270,6 +272,9 @@ video { display: block; width: 100%; background: #000; margin: 0 auto 8px; }
 .cols-intro { align-items: center; margin-bottom: 32px; }
 .cols-intro p { margin: 0; }
 .cols-intro .press-small { margin: 0; }
+/* About: small P.E.A.C.E. album cover between the reviews */
+.album-cover { display: block; width: 180px; margin: 0 auto 40px; }
+.album-cover img { width: 100%; }
 /* About: live photo after the "performing with her band" paragraph */
 .stage-photo { max-width: 360px; margin: 24px auto; }
 .press-title { font-family: "Bakbak One", sans-serif; font-size: 20px; text-align: center; }
