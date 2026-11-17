@@ -269,6 +269,8 @@ video { display: block; width: 100%; background: #000; margin: 0 auto 8px; }
 .cols-intro { align-items: center; margin-bottom: 32px; }
 .cols-intro p { margin: 0; }
 .cols-intro .press-small { margin: 0; }
+/* About: live photo after the "performing with her band" paragraph */
+.stage-photo { max-width: 420px; margin: 24px auto; }
 .press-title { font-family: "Bakbak One", sans-serif; font-size: 20px; text-align: center; }
 
 /* Gallery */
